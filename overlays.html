@@ -1,0 +1,131 @@
+<html>
+    <!-- premier overlay menu -->
+    <div class="overlay">
+        <div class="overlay-close"><img src="assets/images/supprimer.png" alt="image d'une croix pour fermer l'overlay"></div>
+        <div class="overlay-container">
+            <strong class="overlay-title">Une grosse faim ?</strong>
+            <p>Le menu maxi Best Of comprend un sandwich, une grande frite et une boisson 50 Cl</p>
+            <div class="flex space-between align-center">
+                <div class="menu-choice active" id="maxiBestOf">
+                    <div><img class="responsive" src="assets/images/illustration-maxi-best-of.png" alt="illustration d'un menu maxi best of"></div>
+                    <strong>Menu Maxi Best Of</strong>
+                </div>
+                <div class="menu-choice" id="bestOf">
+                    <div><img class="responsive" src="assets/images/illustration-best-of.png" alt="illustration d'un menu best of"></div>
+                    <strong>Menu Best Of</strong>
+                </div>
+            </div>
+            <button class="btn btn-full btn-next">Etape Suivante</button>
+        </div>
+    </div>
+    <!-- deuxieme overlay menu -->
+    <div class="overlay">
+        <div class="overlay-close"><img src="assets/images/supprimer.png" alt="image d'une croix pour fermer l'overlay"></div>
+        <button class="btn btn-empty btn-back">Retour</button>
+        <div class="overlay-container">
+            <strong class="overlay-title">Choisissez votre accompagnement</strong>
+            <p>Frites, potatoes, la pomme de terre dans tous ses états</p>
+            <div class="flex space-between align-center">
+                <div class="menu-choice">
+                    <div><img class="responsive" src="assets/frites/MOYENNE_FRITE.png" alt="illustration d'un menu maxi best of"></div>
+                    <strong>Frites</strong>
+                </div>
+                <div class="menu-choice">
+                    <div><img class="responsive overlay-potatoes-img" src="assets/frites/GRANDE_POTATOES.png" alt="illustration d'un menu best of"></div>
+                    <strong>Potatoes</strong>
+                </div>
+            </div>
+            <button class="btn btn-full btn-next">Etape Suivante</button>
+        </div>
+    </div>
+    <!-- troisieme overlay menu -->
+    <div class="overlay">
+        <div class="overlay-close"><img src="assets/images/supprimer.png" alt="image d'une croix pour fermer l'overlay"></div>
+        <button class="btn btn-empty btn-close">Retour</button>
+        <div class="overlay-container">
+            <strong class="overlay-title">Choisissez votre boisson</strong>
+            <p>Un soda , un jus de fruit ou un verre d’eau pour accompagner votre repas</p>
+            <div class="carousel-container flex align-center justify-center">
+                <button class="carousel-arrow left-arrow-overlay">
+                    <img class="responsive" src="assets/images/fleche-slider.png" alt="flèche rouge arrière">
+                </button>
+                <div class="carousel">
+                    <div class="carousel-slides carousel-boissons"></div>
+                </div>
+                <button class="carousel-arrow right-arrow-overlay">
+                    <img class="responsive reverse-arrow" src="assets/images/fleche-slider.png" alt="flèche rouge arrière">
+                </button>
+            </div>
+            <button class="btn btn-full btn-next">Ajouter le menu à ma commande</button>
+        </div>
+    </div>
+    <!-- quatrieme overlay menu -->
+    <div class="overlay">
+        <div class="overlay-close"><img src="assets/images/supprimer.png" alt="image d'une croix pour fermer l'overlay"></div>
+        <button class="btn btn-empty btn-close">Retour</button>
+        <div class="overlay-container">
+            <strong class="overlay-title">Choisissez votre boisson</strong>
+            <p>Un soda , un jus de fruit ou un verre d’eau pour accompagner votre repas</p>
+            <div class="carousel-container flex align-center justify-center">
+                <button class="carousel-arrow left-arrow-overlay">
+                    <img class="responsive" src="assets/images/fleche-slider.png" alt="flèche rouge arrière">
+                </button>
+                <div class="carousel">
+                    <div class="carousel-slides carousel-boissons"></div>
+                </div>
+                <button class="carousel-arrow right-arrow-overlay">
+                    <img class="responsive reverse-arrow" src="assets/images/fleche-slider.png" alt="flèche rouge arrière">
+                </button>
+            </div>
+            <button class="btn btn-full btn-next">Ajouter le menu à ma commande</button>
+        </div>
+    </div>
+
+    <!-- overlay boissons -->
+    <div class="overlay">
+        <div class="overlay-close"><img src="assets/images/supprimer.png" alt="image d'une croix pour fermer l'overlay"></div>
+        <div class="overlay-container">
+            <strong class="overlay-title">Une petite soif ?</strong>
+            <p>Choisissez la taille de votre boisson,  +0.50€ pour le format 50 Cl</p>
+            <div class="flex space-between align-center">
+                <div class="menu-choice" id="maxiBestOf">
+                    <div><img class="responsive" src="assets/boissons/coca-cola.png" alt="illustration d'une boisson de 50Cl"></div>
+                    <strong>30Cl</strong>
+                </div>
+                <div class="menu-choice" id="bestOf">
+                    <div><img class="responsive" src="assets/boissons/coca-cola.png" alt="illustration d'une boisson de 50Cl"></div>
+                    <strong>50Cl</strong>
+                </div>
+            </div>
+            <div class="number-choice flex justify-center">
+                <div class="flex space-between align-center">
+                    <div class="minus-plus">-</div>
+                    <div class="number-boisson">1</div>
+                    <div class="minus-plus">+</div>
+                </div>
+            </div>
+            <div class="flex justify-center align-center overlay-bottom">
+                <button class="btn btn-empty">Annuler</button>
+                <button class="btn btn-full">Ajouter à ma commande</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- overlay pour le reste -->
+    <div class="overlay">
+        <div class="overlay-close"><img src="assets/images/supprimer.png" alt="image d'une croix pour fermer l'overlay"></div>
+        <div class="overlay-container overlay-container-simple flex">
+            <strong class="overlay-title">Une petite faim ?</strong>
+            <div class="flex justify-center align-center">
+                <div class="menu-choice" id="maxiBestOf">
+                    <div><img class="responsive" src="assets/boissons/coca-cola.png" alt="illustration d'une boisson de 50Cl"></div>
+                    <strong>30Cl</strong>
+                </div>
+            </div>
+            <div class="flex justify-center align-center overlay-bottom">
+                <button class="btn btn-empty">Annuler</button>
+                <button class="btn btn-full">Ajouter à ma commande</button>
+            </div>
+        </div>
+    </div>
+</html>

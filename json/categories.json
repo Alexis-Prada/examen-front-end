@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Menus",
+        "description": "Un sandwich, une friture ou une salade et une boisson, pour un repas complet et savoureux.",
+        "image": "/categories/menus.png"
+    },
+    {
+        "id": 2,
+        "title": "Boissons",
+        "description": "Une petite soif ? Choisissez parmi une sélection de boissons sucrées, légères et rafraîchissantes.",
+        "image": "/categories/boissons.png"
+    },
+    {
+        "id": 3,
+        "title": "Burgers",
+        "description": "Découvrez nos burgers emblématiques, alliant saveurs et fraîcheur pour un plaisir incomparable.",
+        "image": "/categories/burgers.png"
+    },
+    {
+        "id": 4,
+        "title": "Frites",
+        "description": "Croustillantes et dorées à la perfection, nos frites sont le compagnon idéal de votre repas.",
+        "image": "/categories/frites.png"
+    },
+    {
+        "id": 5,
+        "title": "Encas",
+        "description": "Pour combler une petite faim, nos encas variés et délicieux sont là pour vous satisfaire.",
+        "image": "/categories/encas.png"
+    },
+    {
+        "id": 6,
+        "title": "Wraps",
+        "description": "Une alternative savoureuse et légère, nos wraps sont parfaits pour un repas rapide et équilibré.",
+        "image": "/categories/wraps.png"
+    },
+    {
+        "id": 7,
+        "title": "Salades",
+        "description": "Fraîches et croquantes, nos salades offrent un équilibre parfait entre légèreté et goût.",
+        "image": "/categories/salades.png"
+    },
+    {
+        "id": 8,
+        "title": "Desserts",
+        "description": "Terminez votre repas en douceur avec nos desserts gourmands et variés.",
+        "image": "/categories/desserts.png"
+    },
+    {
+        "id": 9,
+        "title": "Sauces",
+        "description": "Ajoutez une touche de saveur à votre repas avec notre sélection de sauces délicieuses.",
+        "image": "/categories/sauces.png"
+    }
+]

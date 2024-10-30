@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <title>Wacdo - Commandez en ligne et venez découvrir tous nos menus, burgers, boissons, salades, wraps et nos offres exclives ! Commande rapide et facile en ligne</title>
+    <meta name="description" content="Envie d'un petit plaisir !! D'un Big Mac ! D'un Mc Chicken ! Commandez en ligne chez Wacdo, et venez retirer votre commande en restaurant ! Ouvert 7 jours sur 7 et de 10h à 01h !">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER CAROUSEL -->
+    <header class="d-none">
+        <h2>Catégories</h2>
+        <div class="carousel-container flex align-center justify-center">
+            <button class="carousel-arrow left-arrow">
+                <img class="responsive" src="assets/images/fleche-slider.png" alt="flèche rouge arrière">
+            </button>
+            <div class="carousel">
+                <div class="carousel-slides" id="headerCarousel"></div>
+            </div>
+            <button class="carousel-arrow right-arrow">
+                <img class="responsive reverse-arrow" src="assets/images/fleche-slider.png" alt="flèche rouge arrière">
+            </button>
+        </div>
+    </header>
+    <!-- SECTION SIDE BAR -->
+    <section class="side-bar flex align-center d-none">
+        <div class="side-bar-top responsive">
+            <div class="side-bar-img"><img src="assets/images/logo.png" alt="logo wacdo"></div>
+            <div class="flex space-between align-center">
+                <div class="side-bar-div-top">
+                    <p>Commande numéro</p>
+                    <p class="endroit"></p>
+                </div>
+                <p class="side-bar-number"></p>
+            </div>
+            <div class="line"></div>
+            <div class="panier"></div>
+        </div>
+        <div class="side-bar-bottom responsive">
+            <div class="line"></div>
+            <div class="side-bar-bottom-top flex space-between align-center">
+                <div>
+                    <p>TOTAL</p>
+                    <p>(ttc)</p>
+                </div>
+                <p class="side-bar-number side-bar-price">0€</p>
+            </div>
+            <div class="side-bar-bottom-bottom flex space-between align-center">
+                <button class="btn btn-empty">Abandon</button>
+                <button class="btn btn-full btn-buy">Payer</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- START PAGE -->
+    <div class="start-page">
+        <img src="assets/images/mc_landing_banner.png" alt="illustration de wacdo">
+        <div class="container-start-choice">
+            <strong class="start-title">Bonjour,</strong>
+            <strong>Souhaitez-vous consommer votre menu sur place ou préférez-vous l'emporter ?</strong>
+            <div class="container-start-bottom flex space-between align-center">
+                <div class="start-choice" id="btnIn">
+                    <div><img src="assets/images/illustration-sur-place.png" alt="illustration sur place"></div>
+                    <strong>Sur Place</strong>
+                </div>
+                <div class="start-choice" id="btnOut">
+                    <div><img src="assets/images/illustration-a-emporter.png" alt="illustration à emporter"></div>
+                    <strong>A Emporter</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MAIN -->
+    <main class="d-none">
+        <div id="mainTitle">
+            <h1 class="main-h1">Nos menus</h1>
+            <p class="main-p">Un sandwich, une friture ou une salade et une boisson</p>
+            <section class="produits flex align-center"></section>
+        </div>
+    </main>
+
+    <!-- FINISH PAGE -->
+    <section class="finish-zone"></section>
+
+    <!-- OVERLAY -->
+    <section class="overlay d-none" id="overlayZone"></section>
+
+    <script src="js/app.js" defer></script>
+    <script src="js/first-page.js" defer></script>
+    <script src="js/overlays/overlay-menus.js" defer></script>
+    <script src="js/overlays/overlay-boissons.js" defer></script>
+    <script src="js/overlays/overlay-simple.js" defer></script>
+    <script src="js/side-bar.js" defer></script>
+    <script src="js/finish-page.js" defer></script>
+</body>
+</html>
